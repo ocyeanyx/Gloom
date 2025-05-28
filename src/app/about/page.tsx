@@ -16,10 +16,10 @@ import type { WebPage, WithContext } from "schema-dts";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Slice and dice!",
+  description: "Young & Dumb!",
   openGraph: {
     title: "About",
-    description: "Slice and dice!",
+    description: "Young & Dumb!",
   },
 };
 
@@ -28,9 +28,9 @@ export default function About() {
     "@context": "https://schema.org",
     "@type": "WebPage",
     name: "About",
-    alternateName: "realm. | About",
+    alternateName: "gloom. | About",
     mainEntityOfPage: "https://onyx.vercel.app/about",
-    description: "Slice and dice!",
+    description: "Young & Dumb!",
     url: "https://onyx.vercel.app/about",
     breadcrumb: {
       "@type": "BreadcrumbList",

@@ -9,10 +9,10 @@ import { Book, Pickaxe } from "lucide-react";
 import { TextScroll } from "@/components/ui/text-scroll";
 
 export const metadata: Metadata = {
-  title: "Landing | realm.",
+  title: "Landing | gloom.",
   description: "Where it all begins.",
   openGraph: {
-    title: "Landing | realm.",
+    title: "Landing | gloom.",
     description: "Where it all begins.",
   },
 };
@@ -21,8 +21,8 @@ export default function Home() {
   const jsonLd: WithContext<WebPage> = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: "Landing / realm.",
-    alternateName: "realm.",
+    name: "Landing / gloom.",
+    alternateName: "gloom.",
     mainEntityOfPage: "https://onyx.vercel.app/",
     description: "Where it all begins.",
     url: "https://onyx.vercel.app/",
