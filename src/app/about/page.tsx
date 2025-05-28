@@ -29,9 +29,9 @@ export default function About() {
     "@type": "WebPage",
     name: "About",
     alternateName: "realm. | About",
-    mainEntityOfPage: "https://irvanma.eu.org/about",
+    mainEntityOfPage: "https://onyx.vercel.app/about",
     description: "Slice and dice!",
-    url: "https://irvanma.eu.org/about",
+    url: "https://onyx.vercel.app/about",
     breadcrumb: {
       "@type": "BreadcrumbList",
       itemListElement: [
@@ -39,25 +39,19 @@ export default function About() {
           "@type": "ListItem",
           position: 1,
           name: "Landing",
-          item: "https://irvanma.eu.org/",
+          item: "https://onyx.vercel.app/",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "About",
-          item: "https://irvanma.eu.org/about",
+          item: "https://onyx.vercel.appabout",
         },
         {
           "@type": "ListItem",
           position: 3,
-          name: "Server Status",
-          item: "https://irvanma.eu.org/status",
-        },
-        {
-          "@type": "ListItem",
-          position: 4,
           name: "Blog",
-          item: "https://irvanma.eu.org/blog",
+          item: "https://onyx.vercel.app/blog",
         },
       ],
     },
@@ -180,7 +174,7 @@ export default function About() {
               asChild
             >
               <a
-                href="https://raw.githubusercontent.com/irvanmalik48/realm/refs/heads/main/CODE_OF_CONDUCT.md"
+                href="null"
                 target="_blank"
                 rel="noopener noreferrer"
               >

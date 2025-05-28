@@ -9,7 +9,7 @@ import "./globals.css";
 import { Footer } from "@/components/footer";
 import { FAB } from "@/components/fab";
 
-import OgImage from "./opengraph-image.png";
+// import OgImage from "./opengraph-image.png";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   description: "Stuffs I put.",
   metadataBase: new URL(
     process.env.NODE_ENV === "production"
-      ? "https://irvanma.eu.org"
+      ? "https://onyx.vercel.app"
       : "http://localhost:3000",
   ),
   openGraph: {
@@ -44,9 +44,9 @@ export const metadata: Metadata = {
     },
     images: [
       {
-        url: OgImage.src,
-        width: OgImage.width,
-        height: OgImage.height,
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
       },
     ],
     description: "Stuffs I put.",
@@ -55,13 +55,13 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@irvanmalik48",
-    creator: "@irvanmalik48",
+    site: "@ocyeanyx",
+    creator: "@ocyeanyx",
     images: [
       {
-        url: OgImage.src,
-        width: OgImage.width,
-        height: OgImage.height,
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
       },
     ],
   },

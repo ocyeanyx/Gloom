@@ -107,7 +107,6 @@ export function FAB() {
               height={120}
               placeholder="blur"
               alt="FAB Hero Image"
-              blurDataURL={Hero.blurDataURL}
               onLoad={() => setIsImageLoading(false)}
               className={`${
                 isImageLoading ? "blur scale-150" : "remove-blur scale-100"
@@ -118,7 +117,7 @@ export function FAB() {
             <span className="size-fit px-2 py-1 rounded-3xl bg-secondary text-secondary-foreground">
               <GitGraph className="size-4" />
             </span>
-            <span>realm. (v8.0.0-rev3)</span>
+            <span>Onyx</span>
           </h3>
           <Link
             className="group relative border-b border-border text-sm cursor-pointer flex items-center gap-3 px-4 py-2 hover:bg-secondary hover:text-secondary-foreground transition-colors"
@@ -142,16 +141,6 @@ export function FAB() {
           </Link>
           <Link
             className="group relative border-b border-border text-sm cursor-pointer flex items-center gap-3 px-4 py-2 hover:bg-secondary hover:text-secondary-foreground transition-colors"
-            href="/status"
-          >
-            <Server className="size-4" />
-            <span>Server Status</span>
-            <div className="absolute opacity-0 translate-x-1/2 right-4 top-1/2 -translate-y-1/2 group-hover:opacity-100 group-hover:translate-x-0 transition-all">
-              <ArrowRight className="size-4" />
-            </div>
-          </Link>
-          <Link
-            className="group relative border-b border-border text-sm cursor-pointer flex items-center gap-3 px-4 py-2 hover:bg-secondary hover:text-secondary-foreground transition-colors"
             href="/about"
           >
             <Info className="size-4" />
@@ -164,11 +153,11 @@ export function FAB() {
             <span className="size-fit px-2 py-1 rounded-3xl bg-secondary text-secondary-foreground">
               <User className="size-4" />
             </span>
-            <span>Social</span>
+            <span>Socials</span>
           </h3>
           <a
             className="group relative border-b border-border text-sm cursor-pointer flex items-center gap-3 px-4 py-2 hover:bg-secondary hover:text-secondary-foreground transition-colors"
-            href="https://github.com/irvanmalik48"
+            href="https://github.com/ocyeanyx"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -180,19 +169,7 @@ export function FAB() {
           </a>
           <a
             className="group relative border-b border-border text-sm cursor-pointer flex items-center gap-3 px-4 py-2 hover:bg-secondary hover:text-secondary-foreground transition-colors"
-            href="https://linkedin.com/in/irvanmalik48"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Linkedin className="size-4" />
-            <span>LinkedIn</span>
-            <div className="absolute opacity-0 translate-x-1/2 right-4 top-1/2 -translate-y-1/2 group-hover:opacity-100 group-hover:translate-x-0 transition-all">
-              <ArrowRight className="size-4" />
-            </div>
-          </a>
-          <a
-            className="group relative border-b border-border text-sm cursor-pointer flex items-center gap-3 px-4 py-2 hover:bg-secondary hover:text-secondary-foreground transition-colors"
-            href="https://t.me/lappv"
+            href="https://t.me/Necromancer_Onyx"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -204,54 +181,12 @@ export function FAB() {
           </a>
           <a
             className="group relative border-b border-border text-sm cursor-pointer flex items-center gap-3 px-4 py-2 hover:bg-secondary hover:text-secondary-foreground transition-colors"
-            href="https://x.com/irvanmalik48"
+            href="https://x.com/ocyeanyx"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Twitter className="size-4" />
-            <span>X/Twitter</span>
-            <div className="absolute opacity-0 translate-x-1/2 right-4 top-1/2 -translate-y-1/2 group-hover:opacity-100 group-hover:translate-x-0 transition-all">
-              <ArrowRight className="size-4" />
-            </div>
-          </a>
-          <a
-            className="group relative border-b border-border text-sm cursor-pointer flex items-center gap-3 px-4 py-2 hover:bg-secondary hover:text-secondary-foreground transition-colors"
-            href="https://social.gnuweeb.org/@lappland"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <MessageSquareMore className="size-4" />
-            <span>Mastodon</span>
-            <div className="absolute opacity-0 translate-x-1/2 right-4 top-1/2 -translate-y-1/2 group-hover:opacity-100 group-hover:translate-x-0 transition-all">
-              <ArrowRight className="size-4" />
-            </div>
-          </a>
-          <h3 className="w-full flex items-center gap-3 bg-muted/20 px-4 py-2 border-b border-border font-semibold">
-            <span className="size-fit px-2 py-1 rounded-3xl bg-secondary text-secondary-foreground">
-              <Link2 className="size-4" />
-            </span>
-            <span>Others</span>
-          </h3>
-          <a
-            className="group relative border-b border-border text-sm cursor-pointer flex items-center gap-3 px-4 py-2 hover:bg-secondary hover:text-secondary-foreground transition-colors"
-            href="https://gnuweeb.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Globe className="size-4" />
-            <span>GNU/Weeb</span>
-            <div className="absolute opacity-0 translate-x-1/2 right-4 top-1/2 -translate-y-1/2 group-hover:opacity-100 group-hover:translate-x-0 transition-all">
-              <ArrowRight className="size-4" />
-            </div>
-          </a>
-          <a
-            className="group relative text-sm cursor-pointer flex items-center gap-3 px-4 py-2 hover:bg-secondary hover:text-secondary-foreground transition-colors"
-            href="https://webri.ng/webring/chads"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <CircleDotDashed className="size-4" />
-            <span>webri.ng</span>
+            <span>X</span>
             <div className="absolute opacity-0 translate-x-1/2 right-4 top-1/2 -translate-y-1/2 group-hover:opacity-100 group-hover:translate-x-0 transition-all">
               <ArrowRight className="size-4" />
             </div>
