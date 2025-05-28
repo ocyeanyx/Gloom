@@ -1,3 +1,8 @@
+<p align="center">
+  <a href="#readme"><strong>README</strong></a> |
+  <a href="LICENSE">License</a>
+</p>
+
 # gloom.
 
 Welcome to **gloom.** — a modern, personal website and digital playground built with bleeding-edge web technologies. This project is a showcase of my work, experiments, blog posts, and self-hosted services, all wrapped in a sleek, fast, and responsive Next.js app.
