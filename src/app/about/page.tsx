@@ -1,10 +1,8 @@
 import Container from "@/components/container";
 import { ImageComponent } from "@/components/image";
-import { Button } from "@/components/ui/button";
 import { TextScroll } from "@/components/ui/text-scroll";
 import {
   Book,
-  Eye,
   HandMetal,
   ThumbsUp,
   Vote,
@@ -174,7 +172,7 @@ export default function About() {
             <span className="text-sm font-mono">ABOUT_MUSIC.md</span>
           </h2>
           <p className="px-5 py-3">
-            My music taste? A blend of alternative rock, dark pop, dreamy indie, slow-burning R&B, and a touch of vintage soul. I vibe with 𝗟𝗮𝗻𝗮 𝗗𝗲𝗹 𝗥𝗲𝘆, 𝗔𝗿𝗰𝘁𝗶𝗰 𝗠𝗼𝗻𝗸𝗲𝘆𝘀, 𝗧𝗵𝗲 𝗪𝗲𝗲𝗸𝗻𝗱, 𝗔𝘃𝗿𝗶𝗹 𝗟𝗮𝘃𝗶𝗴𝗻𝗲, 𝗖𝗶𝗴𝗮𝗿𝗲𝘁𝘁𝗲𝘀 𝗔𝗳𝘁𝗲𝗿 𝗦𝗲𝘅, 𝗘𝗹𝘃𝗶𝘀 𝗣𝗿𝗲𝘀𝗹𝗲𝘆 𝗮𝗻𝗱 𝗙𝗿𝗮𝗻𝗸 𝗦𝗶𝗻𝗮𝘁𝗿𝗮. it’s probably on my playlist.
+            My music taste? A blend of alternative rock, dark pop, dreamy indie, slow-burning R&amp;B, and a touch of vintage soul. I vibe with 𝗟𝗮𝗻𝗮 𝗗𝗲𝗹 𝗥𝗲𝘆, 𝗔𝗿𝗰𝘁𝗶𝗰 𝗠𝗼𝗻𝗸𝗲𝘀, 𝗧𝗵𝗲 𝗪𝗲𝗲𝗸𝗻𝗱, 𝗔𝘃𝗿𝗶𝗹 𝗟𝗮𝘃𝗶𝗴𝗻𝗲, 𝗖𝗶𝗴𝗮𝗿𝗲𝘁𝘁𝗲𝘀 𝗔𝗳𝘁𝗲𝗿 𝗦𝗲𝘅, 𝗘𝗹𝘃𝗶𝘀 𝗣𝗿𝗲𝘀𝗹𝗲𝘆 𝗮𝗻𝗱 𝗙𝗿𝗮𝗻𝗸 𝗦𝗶𝗻𝗮𝘁𝗿𝗮. it’s probably on my playlist.
           </p>
         </div>
       </Container>

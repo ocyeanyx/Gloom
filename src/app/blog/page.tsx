@@ -70,7 +70,7 @@ export default function About() {
             <span className="text-sm font-mono">DETAILS.md</span>
           </h2>
           <p className="px-5 py-3">
-            In case you're wondering—yeah, I write. Sometimes it’s deep, sometimes it’s dumb, sometimes it’s just me trying to get the voices in my head to chill. You’ll find rambles, rants, <span className="line-through">a few backshots</span>, unhinged thoughts, and whatever else my brain throws at me. Could be random, could be genius. Who knows? Not me.
+            In case you're wondering—yeah, I write. Sometimes it&apos;s deep, sometimes it&apos;s dumb, sometimes it&apos;s just me trying to get the voices in my head to chill. You&apos;ll find rambles, rants, <span className="line-through">a few backshots</span>, unhinged thoughts, and whatever else my brain throws at me. Could be random, could be genius. Who knows? Not me.
           </p>
         </div>
         <div className="w-full bg-background rounded-lg border border-border">
