@@ -60,7 +60,7 @@ export default function About() {
   const infoWidgets = [
     {
       title: "Typing Speed",
-      value: "75",
+      value: "50",
       unit: "WPM",
     },
     {
