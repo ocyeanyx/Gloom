@@ -70,11 +70,7 @@ export default function About() {
             <span className="text-sm font-mono">DETAILS.md</span>
           </h2>
           <p className="px-5 py-3">
-            In case you are wondering, yes, I write things. Mainly for some
-            stuffs that I find interesting, or just to get my thoughts out of my
-            head. You might also find rambles, rants,{" "}
-            <span className="line-through">a couple backshots</span>, and some
-            random stuffs, maybe code or some shit like that I don&apos;t know.
+            In case you're wondering—yeah, I write. Sometimes it’s deep, sometimes it’s dumb, sometimes it’s just me trying to get the voices in my head to chill. You’ll find rambles, rants, <span className="line-through">a few backshots</span>, unhinged thoughts, and whatever else my brain throws at me. Could be random, could be genius. Who knows? Not me.
           </p>
         </div>
         <div className="w-full bg-background rounded-lg border border-border">
@@ -93,7 +89,7 @@ export default function About() {
         className="text-5xl md:text-7xl text-muted-foreground/50 dark:font-semibold font-bold py-24 md:space-y-2"
         textClassName="py-1 md:py-3 font-doto"
         default_velocity={0.66}
-        text="AGES AND AGES LATER AND I'M STILL WRITING RANDOM SHIT.  "
+        text="AGES AND AGES LATER AND I'M STILL WRITING RANDOM SHIT."
       />
       <script
         type="application/ld+json"

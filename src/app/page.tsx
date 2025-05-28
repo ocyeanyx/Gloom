@@ -61,24 +61,24 @@ export default function Home() {
             <span className="text-sm font-mono">DESCRIPTION.md</span>
           </h2>
           <p className="px-5 py-3">
-            Hey there! I&apos;m Priyansh Singh—a passionate developer, tech
-            enthusiast, and creative coder based in India. I love
-            building things for the web, automating workflows, and exploring new
-            technologies. Whether it&apos;s open-source projects, experiments, or
-            sharing knowledge, I&apos;m always eager to learn and collaborate.
-            Feel free to reach out for projects, ideas, or just to say hi!
+            Hi, I’m clever, creative, confidently independent, and endlessly curious. I think differently, question everything, and move with purpose. I might come off a little cold at first—don’t take it personally, it’s just the ice. But once the vibe clicks, I’m helpful, witty, and occasionally flirt with genius (and sarcasm).
+            <br /><br />
+            I’m not shy—I just speak when it matters. A bit arrogant? Maybe. Judgmental? Only when it’s earned. Complex? Always. I’m the type to read the room, raise an eyebrow, and keep it real. Sometimes suspicious, sometimes blunt—but never boring.
           </p>
         </div>
         <div className="w-full bg-background rounded-lg border border-border">
           <h2 className="w-full flex items-center gap-3 text-muted-foreground px-5 py-3 border-b border-border">
             <Pickaxe className="size-4" />
-            <span className="text-sm font-mono">PROJECTS.md</span>
+            <span className="text-sm font-mono">MORE.md</span>
           </h2>
           <p className="px-5 py-3">
-            Here you can find some of my personal and open-source projects,
-            experiments, and things I&apos;ve built or contributed to. I enjoy
-            working on web technologies, automation, and creative coding. Check
-            back for updates as I add more!
+            Got questions? Ask away—I don’t bite... unless you’re annoying.
+          <br />
+          <br />
+            Wanna chat? I’m all ears (and just the right dose of chaos).
+          <br />
+          <br />
+          I like good conversations, weird questions, and midnight thoughts that go off the rails. Just don’t hit me with dry small talk—I ghost that.
           </p>
         </div>
         <div className="w-full bg-background rounded-lg border border-border">

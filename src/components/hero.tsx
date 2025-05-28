@@ -7,8 +7,6 @@ import {
 import Image from "next/image";
 import { useState } from "react";
 import { Button } from "./ui/button";
-import { GitHub } from "./logos/github";
-import { Telegram } from "./logos/telegram";
 import { Gmail } from "./logos/gmail";
 
 export interface HeroProps {
@@ -54,21 +52,9 @@ export function Hero({ img, profile }: HeroProps) {
       </div>
       <div className="relative w-full py-3 md:-mt-18 justify-center flex-col md:flex-row md:justify-between flex gap-3 md:gap-5 items-center">
         <p className="w-full md:pl-46 truncate text-center md:text-start text-2xl text-foreground font-bold dark:font-semibold">
-          Priyansh Singh
+          Onyx
         </p>
         <div className="w-fit flex items-center justify-center gap-3">
-          <Button variant="ghost" size="icon" asChild>
-            <a href="https://github.com/ocyeanyx">
-              <GitHub className="size-6" />
-              <span className="sr-only">GitHub Account</span>
-            </a>
-          </Button>
-          <Button variant="ghost" size="icon" asChild>
-            <a href="https://t.me/Necromancer_Onyx">
-              <Telegram className="size-6" />
-              <span className="sr-only">Telegram Account</span>
-            </a>
-          </Button>
           <Button variant="ghost" size="icon" asChild>
             <a href="mailto:priyansh,seraph@gmail.com">
               <Gmail className="size-6" />

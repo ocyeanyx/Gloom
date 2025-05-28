@@ -7,11 +7,17 @@ import {
   Github,
   Home,
   Info,
+  Instagram,
+  Music,
+  Music2,
+  Music4,
   Newspaper,
+  Pilcrow,
+  PilcrowLeft,
   Send,
-  Twitter,
   User,
   X,
+  Youtube,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useEffect, useState } from "react";
@@ -151,12 +157,36 @@ export function FAB() {
           </h3>
           <a
             className="group relative border-b border-border text-sm cursor-pointer flex items-center gap-3 px-4 py-2 hover:bg-secondary hover:text-secondary-foreground transition-colors"
-            href="https://github.com/ocyeanyx"
+            href="https://instagram.com/ocyeanyx"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Github className="size-4" />
-            <span>GitHub</span>
+            <Instagram className="size-4" />
+            <span>Instagram</span>
+            <div className="absolute opacity-0 translate-x-1/2 right-4 top-1/2 -translate-y-1/2 group-hover:opacity-100 group-hover:translate-x-0 transition-all">
+              <ArrowRight className="size-4" />
+            </div>
+          </a>
+          <a
+            className="group relative border-b border-border text-sm cursor-pointer flex items-center gap-3 px-4 py-2 hover:bg-secondary hover:text-secondary-foreground transition-colors"
+            href="https://pinterest.com/ocyeanyx"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Pilcrow className="size-4" />
+            <span>Pinterest</span>
+            <div className="absolute opacity-0 translate-x-1/2 right-4 top-1/2 -translate-y-1/2 group-hover:opacity-100 group-hover:translate-x-0 transition-all">
+              <ArrowRight className="size-4" />
+            </div>
+          </a>
+          <a
+            className="group relative border-b border-border text-sm cursor-pointer flex items-center gap-3 px-4 py-2 hover:bg-secondary hover:text-secondary-foreground transition-colors"
+            href="https://open.spotify.com/user/314zc4ljngbdiyhvi46ckaonorai?si"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Music4 className="size-4" />
+            <span>Spotify</span>
             <div className="absolute opacity-0 translate-x-1/2 right-4 top-1/2 -translate-y-1/2 group-hover:opacity-100 group-hover:translate-x-0 transition-all">
               <ArrowRight className="size-4" />
             </div>
@@ -175,12 +205,12 @@ export function FAB() {
           </a>
           <a
             className="group relative border-b border-border text-sm cursor-pointer flex items-center gap-3 px-4 py-2 hover:bg-secondary hover:text-secondary-foreground transition-colors"
-            href="https://x.com/ocyeanyx"
+            href="https://youtube.com/@ocyeanyx"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Twitter className="size-4" />
-            <span>X</span>
+            <Youtube className="size-4" />
+            <span>Youtube</span>
             <div className="absolute opacity-0 translate-x-1/2 right-4 top-1/2 -translate-y-1/2 group-hover:opacity-100 group-hover:translate-x-0 transition-all">
               <ArrowRight className="size-4" />
             </div>

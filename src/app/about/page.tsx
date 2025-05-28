@@ -5,7 +5,6 @@ import { TextScroll } from "@/components/ui/text-scroll";
 import {
   Book,
   Eye,
-  GitPullRequest,
   HandMetal,
   ThumbsUp,
   Vote,
@@ -59,44 +58,34 @@ export default function About() {
 
   const infoWidgets = [
     {
-      title: "Typing Speed",
-      value: "50",
-      unit: "WPM",
+      title: "Age",
+      value: "18",
+      unit: "Teen",
     },
     {
-      title: "English.",
-      value: "C1",
-      unit: "TOEFL-iBT",
+      title: "Gender",
+      value: "M",
+      unit: "Male",
     },
     {
-      title: "Japanese Prof.",
-      value: "TBD",
-      unit: "JLPT",
+      title: "Language",
+      value: "ENG",
+      unit: "(English)",
     },
     {
-      title: "CSE CGPA",
-      value: "3.9",
-      unit: "OUT OF 4.0",
+      title: "Rizz Level",
+      value: "💀",
+      unit: "Unspoken",
     },
     {
-      title: "Timezone",
-      value: "+5",
-      unit: "GMT/UTC",
-    },
-    {
-      title: "Nationality",
-      value: "IDN",
-      unit: "(Indian)",
-    },
-    {
-      title: "Caffeine Intake",
-      value: "500",
-      unit: "mg/d",
+      title: "Mental Stability",
+      value: "???",
+      unit: "Brain Fog",
     },
     {
       title: "Favorites",
-      value: "Raven",
-      unit: "Yes",
+      value: "Dog",
+      unit: "Husky",
     },
   ];
 
@@ -120,14 +109,16 @@ export default function About() {
             <span className="text-sm font-mono">SHITPOST.md</span>
           </h2>
           <p className="px-5 py-3">
-            A no-shame self-proclaimed ace of all trades, I learn things based
-            on my whim and needs. A fast learner, yet a slow practitioner. Brain
-            cell counts are pretty low to say the least but they&apos;re doing
-            their best lmao. I don&apos;t like bad design and aesthetics. Retro
-            is amazing and modern is minimal. Make things good, not just work.
-            Not picky about food and stuffs but I really love spiciness. Not
-            really into movies and shit but if you wanna talk about anime,
-            I&apos;m your man.
+            I’m what you’d call an unapologetic jack of all trades—if something catches my eye or I randomly decide I need it, I’ll learn it. Fast learner? Sure. Slow as hell when it comes to actually doing it? Also yes. Brain cells are on life support but they’re pushing through. Give ’em some credit.
+          <br />
+          <br />
+            Bad design makes me physically uncomfortable. I like things that <i>look</i> good, not just function. Retro slaps, modern calms my brain—somewhere between VHS and minimalism is my aesthetic therapy.
+          <br />
+          <br />
+            Food? Not picky. Spice? Yes please. Burn my soul, thanks.
+          <br />
+          <br />
+            Shows, movies, all that blah blah? Yeah, I watch ’em—when I’m not busy overthinking life or deep-diving into some random obsession.
           </p>
         </div>
         <div className="w-full bg-background rounded-lg border border-border">
@@ -158,46 +149,24 @@ export default function About() {
         </div>
         <div className="w-full bg-background rounded-lg border border-border">
           <h2 className="w-full flex items-center gap-3 text-muted-foreground px-5 py-3 border-b border-border">
-            <GitPullRequest className="size-4" />
-            <span className="text-sm font-mono">CONTRIBUTING.md</span>
-          </h2>
-          <p className="px-5 py-3">
-            I am open to contributions for this site. If you want to contribute,
-            please consider opening an issue or a pull request. I will review it
-            and merge it if I think it&apos;s good. Anyways, here&apos;s the
-            Code of Conduct for this site development, I call it Code of Virtue:
-          </p>
-          <div className="px-5 pb-5">
-            <Button
-              className="w-full flex gap-3 items-center"
-              variant="outline"
-              asChild
-            >
-              <a
-                href="null"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Eye className="size-4" />
-                <span>View Code of Virtue</span>
-              </a>
-            </Button>
-          </div>
-        </div>
-        <div className="w-full bg-background rounded-lg border border-border">
-          <h2 className="w-full flex items-center gap-3 text-muted-foreground px-5 py-3 border-b border-border">
             <Vote className="size-4" />
-            <span className="text-sm font-mono">ABOUT_POLITICS.md</span>
+            <span className="text-sm font-mono">ABOUT_ME.md</span>
           </h2>
           <p className="px-5 py-3">
-            Here comes the annoying part. I am a moderate national populist but
-            technically speaking, I don&apos;t like talking about politics. It
-            has been a kind of joke recently looking at the state of the world
-            in 2025. Please refrain in trying to pursue the topic with me. Not a
-            fan of it. Any attempts to talk with me about it will be either met
-            with silence, a topic maneuvre, or a literal controversial opinion.
+            𝗕𝗼𝗼𝗸𝘀 𝗜 𝗹𝗼𝘃𝗲? The kind that feel like secret manuals for taking over empires, seducing minds, or outwitting fate. If it’s dark, strategic, or slightly dangerous, it’s probably on my shelf.
+          <br />
+          <br />
+            𝗙𝗮𝘃𝗼𝗿𝗶𝘁𝗲 𝗰𝗼𝗹𝗼𝗿𝘀?  Black for the drama, red for the passion, grey for the mystery, brown for the grounded elegance, and anything else that doesn’t scream, “Look at me, I’m neon!”
+          <br />
+          <br />
+            𝗛𝗼𝗯𝗯𝗶𝗲𝘀? Cooking like I’m feeding ancient gods, painting like I’m summoning old spirits, and reading like I’m decoding the universe one page at a time.
+          <br />
+          <br />
+            𝗜𝗻𝘁𝗲𝗿𝗲𝘀𝘁𝘀? I ’m into all the deliciously dark and curious corners of the world: angels with questionable motives, demons with charm, forgotten mythologies, forbidden philosophies, psychology’s twisted tunnels, witchcraft, vampires, and the kind of history that makes you say, “Wait… did that really happen?”
+          <br />
+          <br />
+            𝗠𝘆 𝗶𝗱𝗼𝗹𝘀? A rather legendary bunch: Adolf Hitler—for raw, terrifying force (history, not morals); Cleopatra—for seductive strategy; Medusa—for weaponized silence; Napoleon—for ruthless ambition; Nikola Tesla—for beautiful madness; and Nyx—for being night itself.
           </p>
-          <p className="px-5 pb-3">So please, don&apos;t.</p>
         </div>
         <div className="w-full bg-background rounded-lg border border-border">
           <h2 className="w-full flex items-center gap-3 text-muted-foreground px-5 py-3 border-b border-border">
@@ -205,20 +174,7 @@ export default function About() {
             <span className="text-sm font-mono">ABOUT_MUSIC.md</span>
           </h2>
           <p className="px-5 py-3">
-            And here comes the fun part! I am an avid metalhead. Not the
-            gatekeeping one tho. I listen to all kinds of music, but metal is my
-            jam. I love the likes of many established and currently upcoming
-            bands, whether it&apos;s the classics like Metallica, Iron Maiden,
-            and Black Sabbath, or the moderns and indies like Spiritbox, Jinjer,
-            and Sleep Token.
-          </p>
-          <p className="px-5 pb-3">
-            Hip-Hop is also one of my favorite genres. I have this innate
-            ability to formulate alot of lyrics and ideas in my head thanks to
-            my exposure to Hip-Hop and oftentimes, the sheer potential of it.
-          </p>
-          <p className="px-5 pb-3">
-            I like good Pop music. That&apos;s pretty much it on the Pop side.
+            My music taste? A blend of alternative rock, dark pop, dreamy indie, slow-burning R&B, and a touch of vintage soul. I vibe with 𝗟𝗮𝗻𝗮 𝗗𝗲𝗹 𝗥𝗲𝘆, 𝗔𝗿𝗰𝘁𝗶𝗰 𝗠𝗼𝗻𝗸𝗲𝘆𝘀, 𝗧𝗵𝗲 𝗪𝗲𝗲𝗸𝗻𝗱, 𝗔𝘃𝗿𝗶𝗹 𝗟𝗮𝘃𝗶𝗴𝗻𝗲, 𝗖𝗶𝗴𝗮𝗿𝗲𝘁𝘁𝗲𝘀 𝗔𝗳𝘁𝗲𝗿 𝗦𝗲𝘅, 𝗘𝗹𝘃𝗶𝘀 𝗣𝗿𝗲𝘀𝗹𝗲𝘆 𝗮𝗻𝗱 𝗙𝗿𝗮𝗻𝗸 𝗦𝗶𝗻𝗮𝘁𝗿𝗮. it’s probably on my playlist.
           </p>
         </div>
       </Container>
