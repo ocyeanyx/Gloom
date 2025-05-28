@@ -64,7 +64,7 @@ export default function About() {
       unit: "WPM",
     },
     {
-      title: "English Prof.",
+      title: "English.",
       value: "C1",
       unit: "TOEFL-iBT",
     },
@@ -80,13 +80,13 @@ export default function About() {
     },
     {
       title: "Timezone",
-      value: "+7",
+      value: "+5",
       unit: "GMT/UTC",
     },
     {
       title: "Nationality",
       value: "IDN",
-      unit: "(Indonesian)",
+      unit: "(Indian)",
     },
     {
       title: "Caffeine Intake",
@@ -95,7 +95,7 @@ export default function About() {
     },
     {
       title: "Favorites",
-      value: "Cat",
+      value: "Raven",
       unit: "Yes",
     },
   ];
@@ -117,7 +117,7 @@ export default function About() {
         <div className="w-full bg-background rounded-lg border border-border">
           <h2 className="w-full flex items-center gap-3 text-muted-foreground px-5 py-3 border-b border-border">
             <Book className="size-4" />
-            <span className="text-sm font-mono">SHITPOSTING.md</span>
+            <span className="text-sm font-mono">SHITPOST.md</span>
           </h2>
           <p className="px-5 py-3">
             A no-shame self-proclaimed ace of all trades, I learn things based
