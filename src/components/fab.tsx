@@ -9,7 +9,6 @@ import {
   Info,
   Newspaper,
   Send,
-  Server,
   Twitter,
   User,
   X,
