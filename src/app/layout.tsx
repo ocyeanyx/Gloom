@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   description: "Stuffs I put.",
   metadataBase: new URL(
     process.env.NODE_ENV === "production"
-      ? "https://onyx.vercel.app"
+      ? "https://thesonofnyx.vercel.app"
       : "http://localhost:3000",
   ),
   openGraph: {
