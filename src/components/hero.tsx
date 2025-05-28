@@ -8,7 +8,6 @@ import Image from "next/image";
 import { useState } from "react";
 import { Button } from "./ui/button";
 import { GitHub } from "./logos/github";
-import { LinkedIn } from "./logos/linkedin";
 import { Telegram } from "./logos/telegram";
 import { Gmail } from "./logos/gmail";
 
