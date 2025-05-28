@@ -8,6 +8,7 @@ import {
   AnimationVariant,
   createAnimation,
 } from "./theme-animations";
+import { Button } from "@/components/ui/button";
 
 interface ThemeToggleAnimationProps {
   variant?: AnimationVariant;

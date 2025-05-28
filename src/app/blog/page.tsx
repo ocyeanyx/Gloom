@@ -69,9 +69,9 @@ export default function About() {
             <Book className="size-4" />
             <span className="text-sm font-mono">DETAILS.md</span>
           </h2>
-          <p className="px-5 py-3">
-            In case you're wondering—yeah, I write. Sometimes it&apos;s deep, sometimes it&apos;s dumb, sometimes it&apos;s just me trying to get the voices in my head to chill. You&apos;ll find rambles, rants, <span className="line-through">a few backshots</span>, unhinged thoughts, and whatever else my brain throws at me. Could be random, could be genius. Who knows? Not me.
-          </p>
+            <p className="px-5 py-3">
+            In case you&apos;re wondering—yeah, I write. Sometimes it&apos;s deep, sometimes it&apos;s dumb, sometimes it&apos;s just me trying to get the voices in my head to chill. You&apos;ll find rambles, rants, <span className="line-through">a few backshots</span>, unhinged thoughts, and whatever else my brain throws at me. Could be random, could be genius. Who knows? Not me.
+            </p>
         </div>
         <div className="w-full bg-background rounded-lg border border-border">
           <h2 className="w-full flex items-center gap-3 text-muted-foreground px-5 py-3 border-b border-border">
