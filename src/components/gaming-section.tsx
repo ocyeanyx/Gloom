@@ -118,6 +118,7 @@ export function GamingSection() {
             </div>
           </div>
         </div>
+
         {/* Wuthering Waves Card */}
         <div
           className={`game-card relative overflow-hidden rounded-xl w-full aspect-[3/4] shadow-sm cursor-pointer perspective ${flippedCard === 'ww' ? 'is-flipped' : ''} hover:shadow transition-shadow`}
@@ -153,7 +154,7 @@ export function GamingSection() {
                   A beautiful open-world ARPG with resonator combat and stunning visuals
                 </p>
 
-                <div className="flex flex-wrap gap-1.5">
+                <div className="flex flex-wrap gap-1.5 mb-3">
                   <Button
                     variant="outline"
                     size="sm"
@@ -183,11 +184,23 @@ export function GamingSection() {
                   </Button>
                 </div>
               </div>
+              <div>
+                <h4 className="font-medium text-xs text-muted-foreground">My Account</h4>
+                <div className="space-y-1.5">
+                  <div className="flex items-center gap-1.5 p-1.5 rounded-md bg-muted/5 text-[10px]">
+                    <div className="p-1 rounded-md bg-yellow-500/10">
+                      <Crown className="size-3 text-purple-500" />
+                    </div>
+                    <span className="font-medium">Onyx</span>
+                    <span className="ml-auto font-mono text-muted-foreground">Will Upload Soon</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        {/* Zenless Zone Zero */}
+        {/* Zenless Zone Zero Card */}
         <div
           className={`game-card relative overflow-hidden rounded-xl w-full aspect-[3/4] shadow-sm cursor-pointer perspective ${flippedCard === 'dbz' ? 'is-flipped' : ''} hover:shadow transition-shadow`}
           onClick={() => toggleFlip('dbz')}
@@ -219,10 +232,10 @@ export function GamingSection() {
                 </div>
                 <h3 className="text-base font-medium mb-1">Zenless Zone Zero</h3>
                 <p className="text-xs text-muted-foreground mb-3">
-                  Dive into a stylish urban fantasy world, battle mysterious creatures called Ethereals, and uncover secrets as a Proxy in the city of New Eridu.
+                  Dive into a stylish urban fantasy world, battle mysterious creatures called Ethereals.
                 </p>
 
-                <div className="flex flex-wrap gap-1.5">
+                <div className="flex flex-wrap gap-1.5 mb-3">
                   <Button
                     variant="outline"
                     size="sm"
@@ -250,6 +263,18 @@ export function GamingSection() {
                     <Smartphone className="size-3" />
                     Android
                   </Button>
+                </div>
+              </div>
+              <div>
+                <h4 className="font-medium text-xs text-muted-foreground">My Account</h4>
+                <div className="space-y-1.5">
+                  <div className="flex items-center gap-1.5 p-1.5 rounded-md bg-muted/5 text-[10px]">
+                    <div className="p-1 rounded-md bg-yellow-500/10">
+                      <Crown className="size-3 text-purple-500" />
+                    </div>
+                    <span className="font-medium">Onyx</span>
+                    <span className="ml-auto font-mono text-muted-foreground">Will Upload Soon</span>
+                  </div>
                 </div>
               </div>
             </div>
