@@ -5,8 +5,7 @@ import { ThemeProvider } from "@/components/ui/theme-provider";
 import { Navbar } from "@/components/navbar";
 import Providers from "@/lib/provider/react-query";
 
-import "./globals.css";
-import { Footer } from "@/components/footer";
+import "../app/globals.css";
 import { FAB } from "@/components/fab";
 
 // import OgImage from "./opengraph-image.png";
@@ -94,7 +93,6 @@ export default function RootLayout({
               <FAB />
               <Navbar />
               {children}
-              <Footer />
             </Providers>
           </ThemeProvider>
         </body>
