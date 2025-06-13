@@ -1,6 +1,6 @@
 "use client";
 
-import { Joystick, Crown, Monitor, Smartphone, Gamepad2 } from "lucide-react";
+import { Joystick, Crown, Monitor, Smartphone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 import Image from "next/image";
