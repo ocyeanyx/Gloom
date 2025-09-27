@@ -189,7 +189,7 @@ export function FAB() {
           </a>
           <a
             className="group relative border-b border-border text-sm cursor-pointer flex items-center gap-3 px-4 py-2 hover:bg-secondary hover:text-secondary-foreground transition-colors"
-            href="https://t.me/Necromancer_Onyx"
+            href="https://t.me/HexVandal"
             target="_blank"
             rel="noopener noreferrer"
           >
