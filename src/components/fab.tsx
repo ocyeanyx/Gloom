@@ -153,7 +153,7 @@ export function FAB() {
           </h3>
           <a
             className="group relative border-b border-border text-sm cursor-pointer flex items-center gap-3 px-4 py-2 hover:bg-secondary hover:text-secondary-foreground transition-colors"
-            href="https://instagram.com/starryvampy"
+            href="https://instagram.com/starryvampyr"
             target="_blank"
             rel="noopener noreferrer"
           >
